@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="lanware_server.exe" version="1.0.0.1" publicKeyToken="0be5bff7a8126c6d" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="lanware_server" version="1.0.0.1" language="neutral" processorArchitecture="x86" />
+    <commandLine file="lanware_server.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet class="System.Security.PermissionSet" version="1" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="lanware_server.exe" size="20480">
+      <assemblyIdentity name="lanware_server" version="1.0.0.1" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>U/zh4EXiYZbgz+DbtfM9G3VbRq0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=NEO\Celso" issuerKeyHash="e239d7b9d0bf0067cf210d9973f5e55c83cd91f5" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>Hb7ARd9E2/PsvpZ9rZk2FMn900Y=</DigestValue></Reference></SignedInfo><SignatureValue>MC/GfZyl8QUiuPtk9u/odwSxYItVtPzqsCcx2DzqYpTrxonpeoTWtmVhQCbH94pOa/cQ5RA26pgmJsFB5AGfutr85vPLxr3T1l1HJw1VZbLN7tNxcqPQgy3k+fjxLJUfK84AkQ15ca1+tS0v1k+b5tnp5SEs/2E5/pIxbYBP8Zw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>v1+hEvC2p0qXThHbpD+i6mrBqB9s/0Xl37toydrHSdC7A9oP5fr8oJa5BQuL6wueZgUxlfc18tNc6XDcBJr+z2bj/IhCcSGCQc6NmNMCffLcb8+/xlr0XSeYwN41ScQOPd6iECkh8Tx6rmTdE2iOh14Qp643PejZrosXSBIlEdE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="46d3fdc9143699ad7d96beecf3db44df45c0be1d" Description="" Url=""><as:assemblyIdentity name="lanware_server.exe" version="1.0.0.1" publicKeyToken="0be5bff7a8126c6d" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=NEO\Celso</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>LPSoGmsIyVajmo1VSr38MApRBSo=</DigestValue></Reference></SignedInfo><SignatureValue>SvWiCU4/uK5VSJtPPN6iXsRjOiAbNV5aXCpzCPkZ2gYIs3y0MtAn6QMVCucGUJ0JJEZBBuGwhJRk/5CgBlQ9YJGMTLRaAKsDGOa5XDQXcBN8TnaZJDUDJW3Mwk57ALcMQD4C3IEXSObn3/cK8SEfsijXxpnG3ILVHl5x93gzCWU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>v1+hEvC2p0qXThHbpD+i6mrBqB9s/0Xl37toydrHSdC7A9oP5fr8oJa5BQuL6wueZgUxlfc18tNc6XDcBJr+z2bj/IhCcSGCQc6NmNMCffLcb8+/xlr0XSeYwN41ScQOPd6iECkh8Tx6rmTdE2iOh14Qp643PejZrosXSBIlEdE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBtTCCASKgAwIBAgIQXRMrjRdwBJFNm/XkyRKgdjAJBgUrDgMCHQUAMB0xGzAZBgNVBAMeEgBOAEUATwBcAEMAZQBsAHMAbzAeFw0wNjA3MzAwNTEyMjJaFw0wNzA3MzAxMTEyMjJaMB0xGzAZBgNVBAMeEgBOAEUATwBcAEMAZQBsAHMAbzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAv1+hEvC2p0qXThHbpD+i6mrBqB9s/0Xl37toydrHSdC7A9oP5fr8oJa5BQuL6wueZgUxlfc18tNc6XDcBJr+z2bj/IhCcSGCQc6NmNMCffLcb8+/xlr0XSeYwN41ScQOPd6iECkh8Tx6rmTdE2iOh14Qp643PejZrosXSBIlEdECAwEAATAJBgUrDgMCHQUAA4GBAD7YJV2cNoKEoiuo7b4A9mj62DDHdgGTkJino+AlhzLZjpFON+R+LOypx/gbBzHchvWxrLjHe8Y+m3N5vjbpaL93SQG1eFbr7FiWmXg+2eX5XxtEdNMVogBYtmYVCikKLrYRXeJFcBs5C6zU2Kdf9RkIxnUnZ/zVxRoAsxV/49Wy</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

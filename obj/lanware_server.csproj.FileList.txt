@@ -1,0 +1,37 @@
+bin\Debug\Kronos Lanware Server.exe.manifest
+bin\Debug\Kronos Lanware Server.application
+bin\Debug\Kronos Lanware Server.exe
+bin\Debug\Kronos Lanware Server.pdb
+bin\Debug\Mono.Security.dll
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\lanware_server.frm_add.resources
+obj\Debug\lanware_server.frm_principal.resources
+obj\Debug\lanware_server.frm_cadastro.resources
+obj\Debug\lanware_server.frm_config.resources
+obj\Debug\lanware_server.frm_indicacao.resources
+obj\Debug\lanware_server.Properties.Resources.resources
+obj\Debug\lanware_server.frm_sobre.resources
+obj\Debug\lanware_server.csproj.GenerateResource.Cache
+obj\Debug\Kronos Lanware Server.TrustInfo.xml
+obj\Debug\Kronos Lanware Server.exe.manifest
+obj\Debug\Kronos Lanware Server.application
+obj\Debug\Kronos Lanware Server.exe
+obj\Debug\Kronos Lanware Server.pdb
+bin\Release\Kronos Lanware Server.exe.manifest
+bin\Release\Kronos Lanware Server.application
+bin\Release\Kronos Lanware Server.exe
+bin\Release\Kronos Lanware Server.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\lanware_server.frm_add.resources
+obj\Release\lanware_server.frm_principal.resources
+obj\Release\lanware_server.frm_cadastro.resources
+obj\Release\lanware_server.frm_config.resources
+obj\Release\lanware_server.frm_indicacao.resources
+obj\Release\lanware_server.Properties.Resources.resources
+obj\Release\lanware_server.frm_sobre.resources
+obj\Release\lanware_server.csproj.GenerateResource.Cache
+obj\Release\Kronos Lanware Server.TrustInfo.xml
+obj\Release\Kronos Lanware Server.exe.manifest
+obj\Release\Kronos Lanware Server.application
+obj\Release\Kronos Lanware Server.exe
+obj\Release\Kronos Lanware Server.pdb
